@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
+    <title>Little Lemon</title>
+
+    <style>
+      body {
+        font-family: "Karla", sans-serif !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="bg-white-800">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 shadow-sm">
+        <div class="flex items-center justify-between h-16">
+          <!-- Logo -->
+          <div class="flex-shrink-0">
+            <a href="#" class="flex items-center">
+              <!-- Replace with your logo -->
+              <img class="h-8 w-auto" src="Logo.png" alt="Logo" />
+            </a>
+          </div>
+
+          <!-- Hamburger button for mobile -->
+          <div class="flex items-center -mr-2 sm:hidden">
+            <button
+              type="button"
+              class="text-gray-600 hover:text-white focus:outline-none focus:text-white"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <!-- Heroicon name: menu -->
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Navbar links -->
+          <div class="hidden sm:flex sm:items-center">
+            <ul class="flex space-x-4">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 hover:text-white px-3 py-2 rounded-md font-medium"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 hover:text-white px-3 py-2 rounded-md font-medium"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 hover:text-white px-3 py-2 rounded-md font-medium"
+                  >Menu</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 hover:text-white px-3 py-2 rounded-md font-medium"
+                  >Reservations</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 hover:text-white px-3 py-2 rounded-md font-medium"
+                  >Order Online</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 hover:text-white px-3 py-2 rounded-md font-medium"
+                >
+                  Login
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu, show/hide based on menu state. -->
+      <div class="sm:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a
+            href="#"
+            class="text-gray-600 hover:text-white block px-3 py-2 rounded-md font-medium"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-gray-600 hover:text-white block px-3 py-2 rounded-md font-medium"
+            >About</a
+          >
+          <a
+            href="#"
+            class="text-gray-600 hover:text-white block px-3 py-2 rounded-md font-medium"
+            >Menu</a
+          >
+          <a
+            href="#"
+            class="text-gray-600 hover:text-white block px-3 py-2 rounded-md font-medium"
+            >Reservations</a
+          >
+          <a
+            href="#"
+            class="text-gray-600 hover:text-white block px-3 py-2 rounded-md font-medium"
+            >Order Online</a
+          >
+          <a
+            href="#"
+            class="text-gray-600 hover:text-white block px-3 py-2 rounded-md font-medium"
+            >Login
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Cover image -->
+    <div class="bg-[#4c615a] text-white">
+      <div
+        class="max-w-5xl flex mx-auto px-8 py-8 mx-auto justify-between space-x-4"
+      >
+        <div class="max-w-2xl space-y-4">
+          <h2 class="text-5xl font-normal">Little Lemon</h2>
+          <p class="text-2xl font-medium">Chicago</p>
+
+          <p class="text-xl font-medium text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <button
+            class="cursor-pointer bg-[#f4ce15] text-gray-600 mt-4 py-2.5 px-5 text-sm font-medium"
+          >
+            Reserve a Table
+          </button>
+        </div>
+        <div>
+          <img class="object-cover h-48 w-96" src="greek_salad.png" />
+        </div>
+      </div>
+    </div>
+
+
+    <!-- specials -->
+    <div class="max-w-5xl mx-auto px-8 py-8">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl">This weeks specials</h2>
+        <button
+          class="cursor-pointer bg-[#f4ce15] text-gray-600 mt-4 py-2.5 px-5 text-sm font-medium"
+        >
+          Online Menu
+        </button>
+      </div>
+     
+     <div class="flex space-x-4">
+        <div class="max-w-xs rounded overflow-hidden shadow-lg pt-8">
+            <img class="w-full" src="https://via.placeholder.com/350x150" alt="Placeholder Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Card Title</div>
+              <p class="text-gray-700 text-base">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Button
+              </button>
+            </div>
+          </div>
+          <div class="max-w-xs rounded overflow-hidden shadow-lg pt-8">
+            <img class="w-full" src="https://via.placeholder.com/350x150" alt="Placeholder Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Card Title</div>
+              <p class="text-gray-700 text-base">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Button
+              </button>
+            </div>
+          </div>
+          <div class="max-w-xs rounded overflow-hidden shadow-lg pt-8">
+            <img class="w-full" src="https://via.placeholder.com/350x150" alt="Placeholder Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Card Title</div>
+              <p class="text-gray-700 text-base">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Button
+              </button>
+            </div>
+          </div>
+     </div>
+    
+    </div>
+
+    <!-- testimonial -->
+    <div class="bg-gray-100 py-12">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-3xl font-semibold mb-6">Testimonials</h2>
+          <div class="flex flex-col md:flex-row justify-center items-center">
+            <!-- Testimonial Card 1 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white mx-4 my-4">
+              <div class="px-6 py-4">
+                <p class="text-gray-700 text-base">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat,
+                  molestie ipsum et, consequat nibh."
+                </p>
+              </div>
+              <div class="px-6 py-4">
+                <p class="font-semibold text-md">John Doe</p>
+                <p class="text-gray-600 text-sm">CEO, Company ABC</p>
+              </div>
+            </div>
+      
+            <!-- Testimonial Card 2 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white mx-4 my-4">
+              <div class="px-6 py-4">
+                <p class="text-gray-700 text-base">
+                  "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                  doloremque laudantium."
+                </p>
+              </div>
+              <div class="px-6 py-4">
+                <p class="font-semibold text-md">Jane Smith</p>
+                <p class="text-gray-600 text-sm">Designer, Company XYZ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+
+    <footer class="bg-white-800 text-gray-600 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+          <div>
+            <p>&copy; 2023 Little Lemon </p>
+            <p class="text-sm">All rights reserved.</p>
+          </div>
+          <div>
+            <a href="#" class="text-gray-600 hover:text-white px-3">Home</a>
+            <a href="#" class="text-gray-600 hover:text-white px-3">About</a>
+            <a href="#" class="text-gray-600 hover:text-white px-3">Services</a>
+            <a href="#" class="text-gray-600 hover:text-white px-3">Contact</a>
+          </div>
+        </div>
+      </footer>
+      
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </body>
+</html>
